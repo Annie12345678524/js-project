@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side Project Of August-Budget</title>
+    <link href="sideproject.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="image"><img src="ocean.3.jpeg" /></div>
+    <div class="content">
+      <h3>Available Pocket Budget in August 2024:</h3>
+      <!-- <h6>TOTAL BALANCE</h6> -->
+      <h1 id="total balance">0.00</h1>
+
+      <div class="income">
+        <h3>Income</h3>
+        <h3 id="income">0.00</h3>
+      </div>
+      <div class="expense">
+        <h3>Expense</h3>
+        <h3 id="expense">0.00</h3>
+      </div>
+    </div>
+
+    <div class="description" id="description">
+      <select id="sign">
+        <option>+</option>
+        <option>-</option>
+      </select>
+      <input
+        id="add description"
+        name="add description"
+        placeholder="Add Description"
+        required
+      />
+      <input id="value" name="Value" placeholder="Value" required />
+      <i class="fa-regular fa-circle-check" id="button"></i>
+    </div>
+
+    <div class="incomeexpense">
+      <div class="income1">
+        <h1>Income</h1>
+        <ul id="income-list"></ul>
+      </div>
+      <div class="expense1">
+        <h1>Expense</h1>
+        <ul id="expense-list"></ul>
+      </div>
+    </div>
+
+    <script src="sideproject.js"></script>
+  </body>
+</html>
